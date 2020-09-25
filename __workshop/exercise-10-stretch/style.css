@@ -3,5 +3,20 @@ body {
 }
 
 button {
-  /* Solve me */
+  padding: 15px 25px;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: blue;
+  border: none;
+  border-radius: 15px;
+  opacity: 0.6;
+  transition: 0.9s;
+}
+
+.button:hover {
+ opacity:1;
+ transition: 0.9s;
 }
